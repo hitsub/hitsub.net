@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <style type="text/css">
-    body { padding-top: 80px; }
     @media ( min-width: 768px ) {
         #banner {
             min-height: 300px;
@@ -52,61 +51,55 @@
 </head>
 <body>
     <div id = "wrap">
-        <header>
-            <div class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a href="http://hitsub.net/" class="navbar-brand">Hitsub.net</a>
-                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="navbar-collapse collapse" id="navbar-main">
-                        <ul class="nav navbar-nav">
-                            <li><a href="./about.html">About</a></li>
-                            <li><a href="./works.html">Works</a></li>
-                            <li><a href="./blog/">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div>
-                        <img class="img-responsive center-block" src="./images/me.png"/>
+                    <img class="img-responsive center-block" src="./images/me.png"/>
+                    <!-- Tab Titles -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Works
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#games" data-toggle="tab">Games</a></li>
+                                    <li><a href="#softwares" data-toggle="tab">Softwares</a></li>
+                                    <li><a href="#glaphics" data-toggle="tab">Glaphics</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+
+                    <!-- Tab Contents-->
+                    <div class="tab-content">
+                        <div id="profile" class="tab-pane fade in active">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active">Profile</li>
+                            </ol>
+                            <p>Test</p>
+                        </div>
+                        <div id="games" class="tab-pane fade">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">Works</li>
+                                <li class="breadcrumb-item active">Games</li>
+                            </ol>
+                            <p>Test</p>
+                        </div>
+                        <div id="softwares" class="tab-pane fade">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">Works</li>
+                                <li class="breadcrumb-item active">Softwares</li>
+                            </ol>
+                            <p>Test</p>
+                        </div>
+                        <div id="glaphics" class="tab-pane fade">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">Works</li>
+                                <li class="breadcrumb-item active">Glaphics</li>
+                            </ol>
+                            <p>Test</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row" style="text-align:center;" >
-                <a href="https://twitter.com/hitsub">
-                    <div class="col-xs-6 col-sm-3 col-md-3 point-box">
-                        <span class="icon-twitter"></span>
-                        <h4>Twitter</h4>
-                    </div>
-                </a>
-                <a href="./blog/">
-                    <div class="col-xs-6 col-sm-3 col-md-3 point-box">
-                        <span class="icon-wordpress"></span>
-                        <h4>Blog</h4>
-                    </div>
-                </a>
-                <a href="./works.html">
-                    <div class="col-xs-6 col-sm-3 col-md-3 point-box">
-                        <span class="icon-hammer"></span>
-                        <h4>Works</h4>
-                    </div>
-                </a>
-                <a href="https://github.com/hitsub/">
-                    <div class="col-xs-6 col-sm-3 col-md-3 point-box">
-                        <span class="icon-github"></span>
-                        <h4>GitHub</h4>
-                    </div>
-                </a>
             </div>
         </div>
     </div>

@@ -6747,10 +6747,9 @@ tbody.collapse.in {
 
 .breadcrumb {
     padding: 8px 15px;
-    margin-bottom: 24px;
+    margin: 24px 0px;
     list-style: none;
-    background-color: #f5f5f5;
-    border-radius: 2px;
+    border-bottom: inset 2px #dbd9d9;
 }
 .breadcrumb > li {
     display: inline-block;
@@ -6761,7 +6760,7 @@ tbody.collapse.in {
     content: "/ ";
 }
 .breadcrumb > .active {
-    color: #b4bcc2;
+    color: #474b4f;
 }
 
 .pagination {
