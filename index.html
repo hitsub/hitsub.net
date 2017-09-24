@@ -3,51 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>hitsub.net</title>
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <style type="text/css">
-    @media ( min-width: 768px ) {
-        #banner {
-            min-height: 300px;
-            border-bottom: none;
-        }
-        .bs-docs-section {
-            margin-top: 8em;
-        }
-        .bs-component {
-            position: relative;
-        }
-        .bs-component .modal {
-            position: relative;
-            top: auto;
-            right: auto;
-            left: auto;
-            bottom: auto;
-            z-index: 1;
-            display: block;
-        }
-        .bs-component .modal-dialog {
-            width: 90%;
-        }
-        .bs-component .popover {
-            position: relative;
-            display: inline-block;
-            width: 220px;
-            margin: 20px;
-        }
-        .nav-tabs {
-            margin-bottom: 15px;
-        }
-        .progress {
-            margin-bottom: 10px;
-        }
-    }
-    </style>
-
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
 </head>
 <body>
     <div id = "wrap">
@@ -55,48 +15,277 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive center-block" src="./images/me.png"/>
+                    <div class="row" style="text-align:center;margin:24px 0px;" >
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <a href="https://twitter.com/hitsub">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <span class="fa fa-twitter fa-3x"></span><br>Twitter
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <a href="./blog/">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <span class="fa fa-wordpress fa-3x"></span><br>Blog
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <a href="http://steamcommunity.com/id/hitsub/">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <span class="fa fa-steam fa-3x"></span><br>Steam
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <a href="https://github.com/hitsub/">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <span class="fa fa-github fa-3x"></span><br>GitHub
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                     <!-- Tab Titles -->
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs nav-justified">
                         <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Works
-                                <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Works<span class="caret"></span>
                                 <ul class="dropdown-menu">
                                     <li><a href="#games" data-toggle="tab">Games</a></li>
                                     <li><a href="#softwares" data-toggle="tab">Softwares</a></li>
-                                    <li><a href="#glaphics" data-toggle="tab">Glaphics</a></li>
+                                    <li><a href="#others" data-toggle="tab">Others</a></li>
                                 </ul>
-                            </li>
+                            </a>
+                        </li>
                     </ul>
 
                     <!-- Tab Contents-->
                     <div class="tab-content">
-                        <div id="profile" class="tab-pane fade in active">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item active">Profile</li>
-                            </ol>
-                            <p>Test</p>
+                        <div id="profile" class="tab-pane fade in active" style="margin: 24px">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">だれ？</div>
+                                        <div class="panel-body">
+                                            ひつぶです。<br />ゲームをしたり作ったりします。
+                                        </div>
+                                        <div class="panel-footer">
+                                            <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>電気通信大学 X680x0同好会
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">できる</div>
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Unity (C#)</li>
+                                                <li>C</li>
+                                                <li>HSP</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">すき</div>
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>FPS</li>
+                                                <li>音楽ゲーム</li>
+                                                <li>百合(ジャンル)</li>
+                                                <li>インディーズ音楽</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">つながり</div>
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Mail : hitsumabushis[at]gmail.com</li>
+                                                <li>Skype : hitsub</li>
+                                                <li>SNS
+                                                    <ul>
+                                                        <li>Twitter : <a href="https://twitter.com/hitsub/">@hitsub</a></li>
+                                                        <li>Google+ : <a href="https://plus.google.com/+Hitsub">+Hitsub</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>Dev
+                                                    <ul>
+                                                        <li>GitHub : <a href="https://github.com/hitsub/">Hitsub</a></li>
+                                                        <li>Qiita : <a href="http://qiita.com/hitsub">@hitsub</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>Game
+                                                    <ul>
+                                                        <li>Discord : Hitsub#1896</li>
+                                                        <li>Steam : <a href="http://steamcommunity.com/id/hitsub/">hitsub</a></li>
+                                                        <li>Origin : h1t5ub</li>
+                                                        <li>LR2IR : <a href="http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=mypage&playerid=131292">131292</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="games" class="tab-pane fade">
+                        <div id="games" class="tab-pane fade" style="margin: 24px">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">Works</li>
                                 <li class="breadcrumb-item active">Games</li>
                             </ol>
-                            <p>Test</p>
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="./images/ss_iglict.png" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h2>IGLICT</h2>
+                                            <p>
+                                                <span class="label label-primary">Unity</span>
+                                                <span class="label label-primary">Win / Mac</span>
+                                                <span class="label label-info">開発中</span>
+                                            </p>
+                                            <p>
+                                                新しい形のFPS。<br/>
+                                                技量を求めません。戦略第一の陣取り合戦です。
+                                            </p>
+                                            <a href="https://github.com/hitsub/capture-the-world" role="button" class="btn btn-default">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    <div class="col-md-4">
+                                        <img src="./images/ss_polytone.png" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h2>POLYTONE(仮称)</h2>
+                                        <p>
+                                            <span class="label label-primary">Unity</span>
+                                            <span class="label label-primary">Win / Mac</span>
+                                            <span class="label label-info">開発中</span>
+                                        </p>
+                                        <p>
+                                            アナログスティックを使った新しいリズム体験を。<br/>
+                                            タイトル募集中です。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    <div class="col-md-4">
+                                        <img src="./images/ss_categorize.png" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h2>CATEGORIZE</h2>
+                                        <p>
+                                            <span class="label label-primary">HSP</span>
+                                            <span class="label label-primary">Windows</span>
+                                            <span class="label label-success">公開中</span>
+                                            <span class="label label-warning">開発中断中</span>
+                                        </p>
+                                        <p>
+                                            シンプルに難しいリズム体験を。<br />
+                                            Halcyonやconflictなど32曲収録。オンラインランキング対応。
+                                        </p>
+                                        <ul class ="award">
+                                            <li class="award">HSPプログラムコンテスト2012 - <a href="http://hsp.tv/contest2012/cntst_fresult.html#276">Windows100%賞</a></li>
+                                            <li class="award">HSPプログラムコンテスト2013 - <a href="http://hsp.tv/contest2013/cntst_fresult.html#680">審査員奨励賞</a></li>
+                                            <li class="book">Windows100% 2013年2月号 収録</li>
+                                            <li class="book"><a href="http://www.shuwasystem.co.jp/products/7980html/4236.html">はじめてのプログラミング HSP3.4+3Dish超入門</a> 収録</li>
+                                        </ul>
+                                        <a href="http://ctgr.net/" role="button" class="btn btn-info">
+                                            Official Site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="softwares" class="tab-pane fade">
+                        <div id="softwares" class="tab-pane fade" style="margin: 24px">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">Works</li>
                                 <li class="breadcrumb-item active">Softwares</li>
                             </ol>
-                            <p>Test</p>
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    <div class="col-md-4">
+                                        <img src="./images/noimage.png" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h2>iBoogie Download Helper</h2>
+                                        <p>
+                                            <span class="label label-primary">HSP</span>
+                                            <span class="label label-primary">Windows</span>
+                                            <span class="label label-danger">開発終了 2013/3</span>
+                                            <span class="label label-danger">公開終了 2013/6</span>
+                                        </p>
+                                        <p>
+                                            iBoogieの譜面やスキン、マーカーのダウンローダー。<br/>
+                                            公式の終了と共に公開終了しました。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    <div class="col-md-4">
+                                        <img src="./images/noimage.png" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h2>Light Browser 2</h2>
+                                        <p>
+                                            <span class="label label-primary">HSP</span>
+                                            <span class="label label-primary">Windows</span>
+                                            <span class="label label-danger">開発終了 2012/12</span>
+                                            <span class="label label-info">公開中</span>
+                                        </p>
+                                        <p>
+                                            IEコンポーネントを使用したインターネットブラウザ。<br/>
+                                            スキン機能やプラグイン機能を備えていました。
+                                        </p>
+                                        <a href="http://hsp.tv/contest2011/entry.php?id=238" role="button" class="btn btn-info">
+                                            Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="glaphics" class="tab-pane fade">
+                        <div id="others" class="tab-pane fade" style="margin: 24px">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">Works</li>
-                                <li class="breadcrumb-item active">Glaphics</li>
+                                <li class="breadcrumb-item active">Others</li>
                             </ol>
-                            <p>Test</p>
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    <div class="col-md-4">
+                                        <img src="./images/noimage.png" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h2>Unity 2D Tutorial</h2>
+                                        <p>
+                                            <span class="label label-info">公開中</span>
+                                        </p>
+                                        <p>
+                                            Unity5.5以上向けの2Dチュートリアル。<br/>
+                                            ネットだけだと様々なバージョンの情報が混在しているためにサークルの新入部員向けに作成しました。全6回。
+                                        </p>
+                                        <a href="https://github.com/x68uec/unity-tutorial-2dshooting/wiki" role="button" class="btn btn-info">
+                                            GitHub Wiki
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
