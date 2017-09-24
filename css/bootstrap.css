@@ -3245,23 +3245,27 @@ a.bg-danger:focus {
 }
 
 ul.award {
-  list-style: none;
+    list-style: none;
+    font-size: 90%;
+    text-indent: -1.5em;
+    padding-left: 2em;
 }
 li.award:before {
-  font-family: FontAwesome;
-  content: '\f091';
-  margin-right: 10px;
+    font-family: FontAwesome;
+    content: '\f091';
+    margin-right: 0.5em;
 }
 li.book:before {
-  font-family: FontAwesome;
-  content: '\f02d';
-  margin-right: 10px;
+    font-family: FontAwesome;
+    content: '\f02d';
+    margin-right: 0.5em;
 }
 
 ul,
 ol {
     margin-top: 0;
     margin-bottom: 12px;
+    list-style-position: outside;
 }
 ul ul,
 ul ol,
