@@ -86,6 +86,17 @@ body {
 
 /*Customize*/
 
+.just {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.just > li {
+  flex: 1 auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
     min-height: 100%;
@@ -338,6 +349,7 @@ th {
         width: 750px;
     }
 }
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
